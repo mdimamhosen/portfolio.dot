@@ -442,9 +442,12 @@ body::-webkit-scrollbar-thumb {
   position: relative;
   display: flex;
   padding: 5rem;
-  margin: 10rem auto;
+  margin: 10rem auto 0 auto;
   gap: 2rem;
   margin-top: 30px solid black;
+}
+#skills {
+  position: relative;
 }
 .skills-fadded-text {
   position: absolute;
@@ -452,12 +455,12 @@ body::-webkit-scrollbar-thumb {
   font-size: 9rem;
   color: rgb(231, 231, 231);
   display: absolute;
-  /* bottom: -20%;
-  right: -25%; */
-  letter-spacing: 0.5rem;
+  bottom: -5%;
+  right: 0%;
+  /* letter-spacing: 0.5rem; */
   font-weight: bold;
   /* transition: all 3s; */
-  /* overflow-y: hidden; */
+  overflow-y: hidden;
 }
 .skill-container-left {
   width: 50%;
