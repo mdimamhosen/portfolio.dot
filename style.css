@@ -7,7 +7,7 @@
   scroll-behavior: smooth;
   font-family: "Be Vietnam Pro", sans-serif;
 }
-body::-webkit-scrollbar {
+/* body::-webkit-scrollbar {
   background-color: transparent;
 }
 body::-webkit-scrollbar-thumb {
@@ -21,7 +21,7 @@ body::-webkit-scrollbar-thumb {
     black
   );
   border-radius: 1.5rem;
-}
+} */
 #wrapper {
   height: 100vh;
   overflow-x: hidden;
